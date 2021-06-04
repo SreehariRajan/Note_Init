@@ -90,7 +90,6 @@ function Page() {
             let data=fetchedDatas;
             data.splice(key,1);
             setfetchedDatas(data);
-            console.log("fetched datssssssssssssssssssssssss",fetchedDatas)
             try{
             firebase.firestore()    
                     .collection('users')

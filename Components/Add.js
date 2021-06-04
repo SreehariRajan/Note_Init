@@ -1,5 +1,5 @@
 import { useNavigation, useRoute } from '@react-navigation/core';
-import React, { useContext, useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import { Text, TextInput, View ,StyleSheet,TouchableOpacity, ScrollView, Keyboard,Alert} from 'react-native';
 import * as firebase from 'firebase';
 import { AntDesign } from '@expo/vector-icons'; 

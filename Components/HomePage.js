@@ -1,5 +1,5 @@
 import { useNavigation} from '@react-navigation/core';
-import React, { useState,useEffect,useContext} from 'react';
+import React, { useState,useEffect} from 'react';
 import { Text,TouchableOpacity,View, StyleSheet,ScrollView,ActivityIndicator,Alert, TextInput, RefreshControl, ToastAndroid } from 'react-native';
 import * as firebase from 'firebase';
 import { setStatusBarHidden } from 'expo-status-bar';
